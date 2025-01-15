@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maliktube</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Site header -->
+  <header>
+    <h1>Maliktube</h1>
+    <img id="logo" src="logo.png" alt="Logo">
+  </header>
+
+  <!-- Video upload section (only for you, hidden for others) -->
+  <div id="upload-section">
+    <h2>Upload Your Videos</h2>
+    <input type="file" id="video-upload" accept="video/*" multiple>
+    <button onclick="uploadVideos()">Upload Videos</button>
+  </div>
+
+  <!-- Video display section -->
+  <div id="video-container">
+    <h2>Watch Uploaded Videos</h2>
+    <div id="videos-list">
+      <!-- Uploaded videos will appear here -->
+    </div>
+  </div>
+
+  <!-- Site closing -->
+  <footer>
+    <p>Made with ❤️ by Maliktube</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
